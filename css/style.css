@@ -1,0 +1,122 @@
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sr {
+    visibility: hidden;
+}
+
+body {
+    background-color: #000000;
+    background-image: url('../assets/portada.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1{
+	text-align: center;
+	font-size: 40px;
+	color: #fafafa;
+}
+
+.patrocinadores {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 25px;
+}
+
+.patrocinador-card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(18, 18, 18, 0.9);
+    border-radius: 20px;
+    color: #fafafa;
+    padding: 5px;
+}
+
+.img-patrocinador {
+    align-self: center;
+    width: 50%;
+    height: auto;
+}
+
+.patrocinador-card > p{
+    padding-top: 15px;
+}
+
+/* mobile */
+
+@media (min-width:320px)  {
+    h1{
+		text-align: center;
+		font-size: 70px;
+		color: #fafafa;
+	}
+	
+	.patrocinadores {
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        gap: 25px;
+    }
+}
+
+/* Low Resolution Tablets and ipads */
+
+@media (min-width:641px)  {
+    .patrocinadores {
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        gap: 25px;
+    }
+}
+
+/* Tablet, landscape iPad, lo-res laptops ands desktops */
+
+@media (min-width:961px)  {
+	.patrocinadores {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        gap: 25px;
+    }
+}
+
+
+/* Big landscape tablets, laptops, and desktops */
+
+@media (min-width:1025px) {
+    .patrocinadores {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        gap: 25px;
+    }
+}
+
+/* Hi-res laptops and desktops */
+
+@media (min-width:1281px) {
+    .patrocinadores {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        gap: 25px;
+    }
+}
+
+/* Huge size (Large Screen) */
+
+@media (min-width:2560px) {
+    .patrocinadores {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        gap: 25px;
+    }
+}
