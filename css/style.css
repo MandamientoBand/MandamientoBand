@@ -44,6 +44,10 @@ h1 {
     padding: 5px;
 }
 
+.patrocinador-card > a{
+	text-align: center;
+}
+
 .img-patrocinador {
     align-self: center;
     width: 50%;
