@@ -59,8 +59,9 @@ h1 {
     color: red;
 }
 
-.patrocinador-enlace.visited{
-
+.patrocinador-enlace:visited{
+    text-decoration: none;
+    color: red;
 }
 
 .patrocinador-enlace{
