@@ -54,6 +54,15 @@ h1 {
     height: auto;
 }
 
+.patrocinador-contacto{
+    text-decoration: none;
+    color: red;
+}
+
+.patrocinador-enlace.visited{
+
+}
+
 .patrocinador-enlace{
     text-align: center;
 }
