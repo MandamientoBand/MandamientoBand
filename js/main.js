@@ -2,4 +2,5 @@
 ScrollReveal().reveal('.title'); */
 
 ScrollReveal().reveal('.title', { duration: 2000 });
+ScrollReveal().reveal('body', { duration: 1 });
 ScrollReveal().reveal('.patrocinador-card', { interval: 200});
