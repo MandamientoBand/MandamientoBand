@@ -1,4 +1,4 @@
-### Hi there 👋
+### Página de Mandamiento en agradecimiento a los patrocinadores en la presentación del disco "La Ciudad Prohibida"
 
 <!--
 **MandamientoBand/MandamientoBand** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
